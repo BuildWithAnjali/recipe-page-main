@@ -111,3 +111,47 @@ table tr:last-child td {
 table strong {
   color: hsl(14, 45%, 36%);
 }
+
+
+@media (max-width: 768px) {
+  body {
+    margin-top: 40px;
+    margin-bottom: 40px;
+  }
+
+  .contain-1 {
+    width: 90%;
+    padding: 15px;
+  }
+
+  .omlet-img {
+    width: 100%;
+    height: auto;
+  }
+
+  .scroll-1, .scroll-4, .rose-b {
+    width: 100%;
+  }
+
+  .rose-b {
+    height: auto;
+    padding: 15px;
+  }
+
+  .unordr {
+    margin-left: 20px;
+  }
+
+  h3 {
+    margin-left: 20px;
+  }
+
+  .tabulr {
+    display: block;
+    overflow-x: auto;
+  }
+
+  table {
+    width: 100%;
+  }
+}
